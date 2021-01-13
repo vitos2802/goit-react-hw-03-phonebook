@@ -5,7 +5,7 @@ import s from './ContactList.module.css';
 const ContactList = ({ contacts, onDelete }) => {
   return (
     <ul className={s.contactList}>
-      <ContactItem contacts={contacts} onDelete={onDelete} />;
+      <ContactItem contacts={contacts} onDelete={onDelete} />
     </ul>
   );
 };
