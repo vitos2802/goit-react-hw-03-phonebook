@@ -1,0 +1,9 @@
+.filterLabel {
+  width: 300px;
+  display: block;
+  padding: 15px 0;
+}
+
+.filterText {
+  margin-bottom: 15px;
+}

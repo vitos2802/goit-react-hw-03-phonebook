@@ -1,0 +1,14 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  border: 1px solid #000;
+}
